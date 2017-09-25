@@ -15,7 +15,7 @@ def Matched_filter(grid,Template,Background,binsize=[0.1,0.2]):
 	if (shape_B==shape_T) and (shape_T==shape_g):
 		ind = Background>0
 		# term 1 is the sum term
-		T1 = np.sum(Template[ind]*1.0/Background[ind])
+		T1 = np.sum(Template[ind]*1.0/Background[ind]*grid[ind])
 		# T2 is the integration of template
 		T2 = np.sum(Template*binsize[0]*binsize[1])
 		# T3 is the integration of T**2/B
@@ -24,8 +24,8 @@ def Matched_filter(grid,Template,Background,binsize=[0.1,0.2]):
 		# print(np.shape(TT),np.shape(T1),np.shape(T2),np.shape(T3))
 		# TT[T3>0] = (T1[T3>0]-T2)/T3[T3>0]
 		# TT[ind3] = (T1[ind3]-T2[ind3])/T3[ind3]
-		wa = np.sum((T1-T2)/T3*Template[ind]*Template[ind]/Background[ind])
-		return (T1-T2)/T3,wa
+		# wa = np.sum((T1-T2)/T3*Template[ind]*Template[ind]/Background[ind])
+		return (T1-T2)/T3
 	else:
 		print("The shapes of the grid, Template and Background are not consistent.")
 		print("shape of grid is ",np.shape(grid))
