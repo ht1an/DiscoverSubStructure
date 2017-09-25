@@ -13,13 +13,18 @@ def Matched_filter(grid,Template,Background,binsize=[0.1,0.2]):
 	shape_T = np.shape(Template)
 	shape_B = np.shape(Background)
 	if (shape_B==shape_T) and (shape_T==shape_g):
-		ind = Background>0
+		ind = (Background>0)
 		# term 1 is the sum term
 		T1 = np.sum(Template[ind]*1.0/Background[ind]*grid[ind])
 		# T2 is the integration of template
 		T2 = np.sum(Template*binsize[0]*binsize[1])
 		# T3 is the integration of T**2/B
 		T3 = np.sum(Template[ind]**2/Background[ind]*binsize[0]*binsize[1])
+		if T3==0:
+			print('-----------')
+			print(Template[ind])
+		# print(np.max(Background),np.min(Background))
+		# print(T3,'--------')
 		# print(T1,T2,T3)
 		# print(np.shape(TT),np.shape(T1),np.shape(T2),np.shape(T3))
 		# TT[T3>0] = (T1[T3>0]-T2)/T3[T3>0]
