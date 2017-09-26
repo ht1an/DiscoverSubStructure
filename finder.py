@@ -23,14 +23,8 @@ def Matched_filter(grid,Template,Background,binsize=[0.1,0.2]):
 		if T3==0:
 			print('-----------')
 			print(Template[ind])
-		# print(np.max(Background),np.min(Background))
-		# print(T3,'--------')
-		# print(T1,T2,T3)
-		# print(np.shape(TT),np.shape(T1),np.shape(T2),np.shape(T3))
-		# TT[T3>0] = (T1[T3>0]-T2)/T3[T3>0]
-		# TT[ind3] = (T1[ind3]-T2[ind3])/T3[ind3]
-		# wa = np.sum((T1-T2)/T3*Template[ind]*Template[ind]/Background[ind])
-		return (T1-T2)/T3
+		wa = np.sum((T1-T2)/T3*Template[ind]*Template[ind]/Background[ind])
+		return (T1-T2)/T3,wa
 	else:
 		print("The shapes of the grid, Template and Background are not consistent.")
 		print("shape of grid is ",np.shape(grid))
