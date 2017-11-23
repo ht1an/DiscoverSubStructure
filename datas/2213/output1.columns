@@ -1,0 +1,115 @@
+1. Extension (zero for base image)
+2. Chip (for three-dimensional FITS image)
+3. Object X position on reference image (or first image, if no reference)
+4. Object Y position on reference image (or first image, if no reference)
+5. Chi for fit
+6. Signal-to-noise
+7. Object sharpness
+8. Object roundness
+9. Direction of major axis (if not round)
+10. Crowding
+11. Object type (1=bright star, 2=faint, 3=elongated, 4=hot pixel, 5=extended)
+12. Total counts, F475W
+13. Total sky level, F475W
+14. Normalized count rate, F475W
+15. Normalized count rate uncertainty, F475W
+16. Instrumental VEGAMAG magnitude, F475W
+17. Transformed UBVRI magnitude, F475W
+18. Magnitude uncertainty, F475W
+19. Chi, F475W
+20. Signal-to-noise, F475W
+21. Sharpness, F475W
+22. Roundness, F475W
+23. Crowding, F475W
+24. Photometry quality flag, F475W
+25. Total counts, F814W
+26. Total sky level, F814W
+27. Normalized count rate, F814W
+28. Normalized count rate uncertainty, F814W
+29. Instrumental VEGAMAG magnitude, F814W
+30. Transformed UBVRI magnitude, F814W
+31. Magnitude uncertainty, F814W
+32. Chi, F814W
+33. Signal-to-noise, F814W
+34. Sharpness, F814W
+35. Roundness, F814W
+36. Crowding, F814W
+37. Photometry quality flag, F814W
+38. Measured counts, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+39. Measured sky level, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+40. Normalized count rate, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+41. Normalized count rate uncertainty, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+42. Instrumental VEGAMAG magnitude, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+43. Transformed UBVRI magnitude, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+44. Magnitude uncertainty, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+45. Chi, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+46. Signal-to-noise, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+47. Sharpness, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+48. Roundness, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+49. Crowding, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+50. Photometry quality flag, ibhy25kaq_flt.chip1 (F475W, 120.0 sec)
+51. Measured counts, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+52. Measured sky level, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+53. Normalized count rate, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+54. Normalized count rate uncertainty, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+55. Instrumental VEGAMAG magnitude, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+56. Transformed UBVRI magnitude, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+57. Magnitude uncertainty, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+58. Chi, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+59. Signal-to-noise, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+60. Sharpness, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+61. Roundness, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+62. Crowding, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+63. Photometry quality flag, ibhy25kbq_flt.chip1 (F814W, 30.0 sec)
+64. Measured counts, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+65. Measured sky level, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+66. Normalized count rate, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+67. Normalized count rate uncertainty, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+68. Instrumental VEGAMAG magnitude, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+69. Transformed UBVRI magnitude, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+70. Magnitude uncertainty, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+71. Chi, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+72. Signal-to-noise, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+73. Sharpness, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+74. Roundness, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+75. Crowding, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+76. Photometry quality flag, ibhy25kcq_flt.chip1 (F814W, 700.0 sec)
+77. Measured counts, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+78. Measured sky level, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+79. Normalized count rate, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+80. Normalized count rate uncertainty, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+81. Instrumental VEGAMAG magnitude, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+82. Transformed UBVRI magnitude, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+83. Magnitude uncertainty, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+84. Chi, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+85. Signal-to-noise, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+86. Sharpness, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+87. Roundness, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+88. Crowding, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+89. Photometry quality flag, ibhy25kfq_flt.chip1 (F814W, 700.0 sec)
+90. Measured counts, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+91. Measured sky level, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+92. Normalized count rate, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+93. Normalized count rate uncertainty, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+94. Instrumental VEGAMAG magnitude, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+95. Transformed UBVRI magnitude, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+96. Magnitude uncertainty, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+97. Chi, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+98. Signal-to-noise, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+99. Sharpness, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+100. Roundness, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+101. Crowding, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+102. Photometry quality flag, ibhy25kjq_flt.chip1 (F475W, 720.0 sec)
+103. Measured counts, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+104. Measured sky level, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+105. Normalized count rate, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+106. Normalized count rate uncertainty, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+107. Instrumental VEGAMAG magnitude, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+108. Transformed UBVRI magnitude, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+109. Magnitude uncertainty, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+110. Chi, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+111. Signal-to-noise, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+112. Sharpness, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+113. Roundness, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+114. Crowding, ibhy25knq_flt.chip1 (F475W, 600.0 sec)
+115. Photometry quality flag, ibhy25knq_flt.chip1 (F475W, 600.0 sec)

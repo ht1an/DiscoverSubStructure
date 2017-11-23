@@ -1,0 +1,102 @@
+1. Extension (zero for base image)
+2. Chip (for three-dimensional FITS image)
+3. Object X position on reference image (or first image, if no reference)
+4. Object Y position on reference image (or first image, if no reference)
+5. Chi for fit
+6. Signal-to-noise
+7. Object sharpness
+8. Object roundness
+9. Direction of major axis (if not round)
+10. Crowding
+11. Object type (1=bright star, 2=faint, 3=elongated, 4=hot pixel, 5=extended)
+12. Total counts, F438W
+13. Total sky level, F438W
+14. Normalized count rate, F438W
+15. Normalized count rate uncertainty, F438W
+16. Instrumental VEGAMAG magnitude, F438W
+17. Transformed UBVRI magnitude, F438W
+18. Magnitude uncertainty, F438W
+19. Chi, F438W
+20. Signal-to-noise, F438W
+21. Sharpness, F438W
+22. Roundness, F438W
+23. Crowding, F438W
+24. Photometry quality flag, F438W
+25. Total counts, F814W
+26. Total sky level, F814W
+27. Normalized count rate, F814W
+28. Normalized count rate uncertainty, F814W
+29. Instrumental VEGAMAG magnitude, F814W
+30. Transformed UBVRI magnitude, F814W
+31. Magnitude uncertainty, F814W
+32. Chi, F814W
+33. Signal-to-noise, F814W
+34. Sharpness, F814W
+35. Roundness, F814W
+36. Crowding, F814W
+37. Photometry quality flag, F814W
+38. Measured counts, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+39. Measured sky level, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+40. Normalized count rate, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+41. Normalized count rate uncertainty, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+42. Instrumental VEGAMAG magnitude, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+43. Transformed UBVRI magnitude, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+44. Magnitude uncertainty, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+45. Chi, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+46. Signal-to-noise, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+47. Sharpness, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+48. Roundness, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+49. Crowding, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+50. Photometry quality flag, ibyl02igq_flt.chip1 (F814W, 60.0 sec)
+51. Measured counts, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+52. Measured sky level, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+53. Normalized count rate, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+54. Normalized count rate uncertainty, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+55. Instrumental VEGAMAG magnitude, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+56. Transformed UBVRI magnitude, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+57. Magnitude uncertainty, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+58. Chi, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+59. Signal-to-noise, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+60. Sharpness, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+61. Roundness, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+62. Crowding, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+63. Photometry quality flag, ibyl02ihq_flt.chip1 (F814W, 425.0 sec)
+64. Measured counts, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+65. Measured sky level, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+66. Normalized count rate, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+67. Normalized count rate uncertainty, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+68. Instrumental VEGAMAG magnitude, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+69. Transformed UBVRI magnitude, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+70. Magnitude uncertainty, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+71. Chi, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+72. Signal-to-noise, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+73. Sharpness, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+74. Roundness, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+75. Crowding, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+76. Photometry quality flag, ibyl02ikq_flt.chip1 (F438W, 825.0 sec)
+77. Measured counts, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+78. Measured sky level, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+79. Normalized count rate, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+80. Normalized count rate uncertainty, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+81. Instrumental VEGAMAG magnitude, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+82. Transformed UBVRI magnitude, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+83. Magnitude uncertainty, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+84. Chi, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+85. Signal-to-noise, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+86. Sharpness, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+87. Roundness, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+88. Crowding, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+89. Photometry quality flag, ibyl02ioq_flt.chip1 (F438W, 825.0 sec)
+90. Measured counts, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+91. Measured sky level, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+92. Normalized count rate, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+93. Normalized count rate uncertainty, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+94. Instrumental VEGAMAG magnitude, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+95. Transformed UBVRI magnitude, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+96. Magnitude uncertainty, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+97. Chi, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+98. Signal-to-noise, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+99. Sharpness, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+100. Roundness, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+101. Crowding, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
+102. Photometry quality flag, ibyl02isq_flt.chip1 (F814W, 425.0 sec)
